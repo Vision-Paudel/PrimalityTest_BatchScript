@@ -6,11 +6,12 @@ echo * https://github.com/Vision-Paudel/PrimalityTest_BatchScript  *
 echo * ----------------------------------------------------------  * 
 
 :NEWNUMBER
-set /p number="Enter an integer number: "
+set /p number="Enter a positive integer number (0 to exit): "
 echo %number%|findstr /r /c:"^[0-9][0-9]*"$ >nul
 if errorlevel 1 (GOTO NotValidNumber)
 
 REM First Five Cases
+if %number%==0 GOTO EXIT
 if %number%==1 GOTO NOTPRIME
 if %number% gtr 1 if %number% leq 3 GOTO PRIME
 if %number%==4 GOTO NOTPRIME
@@ -58,3 +59,7 @@ goto NEWNUMBER
 :NotValidNumber
 echo %number% is not a valid positive integer number
 goto NEWNUMBER
+
+:EXIT
+Color
+exit
