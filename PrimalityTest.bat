@@ -53,6 +53,8 @@ goto NEWNUMBER
 
 :NOTPRIME
 echo %number% is not a prime number.
+if %number% gtr 5 (echo One Divisor is %divisor%.
+)
 pause
 goto NEWNUMBER
 
