@@ -11,3 +11,4 @@ In Command Line, use cd to go into the directory and run program from there:
 cd [Path-to-directory]
 PrimalityTest
 ```
+Addiionally, you can install it in windows directory and call it whenever you need it.
