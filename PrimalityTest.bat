@@ -62,4 +62,3 @@ goto NEWNUMBER
 
 :EXIT
 Color
-exit
