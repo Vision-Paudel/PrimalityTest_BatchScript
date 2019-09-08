@@ -7,5 +7,8 @@ Batch files are high-level interpretive script so are slow.
 
 Use cd to go into the directory and run program from there:
 
+---
+
 cd [absolute-path-to-directory]
+
 PrimalityTest
