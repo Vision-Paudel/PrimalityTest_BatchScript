@@ -8,6 +8,6 @@ Batch files are high-level interpretive scripts so are slow.
 ---
 In Command Line, use cd to go into the directory and run program from there:
 ```command line
-cd [absolute-path-to-directory]
+cd [Path-to-directory]
 PrimalityTest
 ```
