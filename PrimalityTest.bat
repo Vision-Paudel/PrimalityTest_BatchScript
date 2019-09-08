@@ -26,7 +26,7 @@ REM Set New Max to check up to
 set /a newMax = %number% / %divisor% 
 
 REM | * ------------------------------------------------------------------------- * |
-REM | * Loop to check rest of the numbers starting at 3                           * |
+REM | * Loop to check rest of the divisors starting at 3                           * |
 REM | * and going up by 2 until divisor is approximately the square of the number * |
 REM | * ------------------------------------------------------------------------- * |
 
