@@ -11,4 +11,4 @@ In Command Line, use cd to go into the directory and run program from there:
 cd [Path-to-directory]
 PrimalityTest
 ```
-Addiionally, to call it from any directory, you can install it in System Root (Windows Directory) or add the path to directory in PATH of Environment Variables.
+Additionally, to call it from any directory, you can install it in System Root (Windows Directory) or add the path to directory in PATH of Environment Variables.
